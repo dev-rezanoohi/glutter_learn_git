@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
+        title: const Text('title'),
       ),
     );
   }
