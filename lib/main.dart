@@ -14,7 +14,13 @@ class MyApp extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all( 20.0),
         child: Container(
-
+          width: 100,
+          height: 100,
+          decoration: BoxDecoration(
+            color: Colors.blue,
+            borderRadius: BorderRadius.circular(10),
+            shape: BoxShape.circle,
+          ),
         ),
       ),
     );
